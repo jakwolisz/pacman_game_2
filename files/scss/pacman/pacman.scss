@@ -1,0 +1,32 @@
+
+
+.pacman_icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #f2d648;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 40px;
+    z-index: 2;
+  }
+
+  .pacman__eye {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 30px;
+    right: 30px;
+    background: #333333;
+  }
+
+  .pacman__mouth {
+    background: $midnight_green_color;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(103% 26%, 64% 48%, 103% 70%);
+  }
+
+  

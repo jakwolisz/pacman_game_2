@@ -1,0 +1,29 @@
+
+.box {
+    text-align: center;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: $link-text-color;
+    text-transform: capitalize;
+    background-color: $button-bg;
+  
+    padding: 20px 0px;
+    width: 150px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+    font: {
+      family: 'Press Start 2P', cursive; 
+      size: 18px;
+    }
+  
+    &--big--alert {
+      @extend .box;
+      padding: 50px;
+      background-color: $bittersweet_color;
+    }
+  
+    
+  }
