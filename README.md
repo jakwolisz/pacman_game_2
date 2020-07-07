@@ -1,7 +1,7 @@
 # SIMPLE PACMAN GAME
 * [About](#about)
 * [Technologies](#technologies)
-* [Instalation locally](#-instalation-locally)
+* [Instalation locally](#installation-locally)
 ## About
 This is my slightly graphically altered "Furry Game" version. Simple Pacman Game.
 This version contains Pacman icon created in CSS and simple button animation.
